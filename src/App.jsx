@@ -1,11 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import './App.css';
 
 function App() {
 
   // add usestates to save input and todos
-  const [todo, setTodo] = useState([])
-  const [input, setInput] = useState("")
+ 
 
   // When the component mounts, fetch todos from local storage
 
